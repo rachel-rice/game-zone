@@ -1,0 +1,145 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+/* .clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+} */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+
+body {
+ padding: 5px 20px;
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+h1, h2{
+  font-family:'Press Start 2P', sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.about {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.small {
+  padding: 10px;
+  align-content: center;
+}
+/* 
+nav * {
+  width: 10%;
+  display: inline;
+}
+
+div + a {
+  float: right;
+}
+
+div .container {
+  text-align: center;
+}
+
+main {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+main > section {
+  text-align: left;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.containerTwo {
+  background: black;
+  color: white;
+  height: 175px;
+  margin-left: 30px;
+  width: 150px;
+}
+
+.services > section{
+  float: left;
+  display: inline;
+  width: 28%;
+  text-align: center;
+  padding-left: 60px;
+  padding-bottom: 20px;
+}
+
+.info > section {
+  float: left;
+  height: 300px;
+  width: 50%;
+  padding-left: 60px;
+  padding-bottom: 20px; 
+}
+.info {
+  background: rgba(243,244,246,1);
+}
+
+h1, h2, h3, h6, span, .intro {
+  text-transform: uppercase;
+}
+
+.stylist > section {
+  float: left;
+  width: 33%;
+}
+
+.offer {
+  width: 800px;
+  height: 150px;
+  background:rgba(243,244,246,1) ;
+}
+
+.offer section {
+  float: left;
+  width: 50%;
+}
+
+.look {
+  text-align: center;
+}
+
+.little {
+  background: black;
+  color: white;
+  width: 150px;
+
+} */ 
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
